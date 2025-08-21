@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>קניית רכבי לימוד - Alpha Drive Marketplace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo transpernt.png" alt="Alpha Drive Logo">
+    </div>
+    <!-- Mobile menu toggle button -->
+    <button class="menu-toggle" aria-label="תפריט">☰</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">בית</a></li>
+        <li class="active"><a href="buy.html">קנייה</a></li>
+        <li><a href="sell.html">מכירה</a></li>
+        <li><a href="valuation.html">בדיקת מחירון</a></li>
+        <li><a href="signup.html">הצטרפות</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <h2 class="section-title">חפש רכבי הוראה למכירה</h2>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="חפש לפי דגם, יצרן או מילה מפתח">
+      <select id="categoryFilter"></select>
+    </div>
+    <div id="listingGrid" class="listing-grid"></div>
+  </section>
+  <footer>
+    © 2025 Alpha Drive. כל הזכויות שמורות.
+  </footer>
+  <!-- Modal container for listing details -->
+  <div id="modalOverlay" class="modal-overlay"></div>
+  <script src="script.js"></script>
+</body>
+</html>

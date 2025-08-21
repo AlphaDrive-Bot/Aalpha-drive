@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>הצטרפות - Alpha Drive Marketplace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo transpernt.png" alt="Alpha Drive Logo">
+    </div>
+    <!-- Mobile menu toggle button -->
+    <button class="menu-toggle" aria-label="תפריט">☰</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">בית</a></li>
+        <li><a href="buy.html">קנייה</a></li>
+        <li><a href="sell.html">מכירה</a></li>
+        <li><a href="valuation.html">בדיקת מחירון</a></li>
+        <li class="active"><a href="signup.html">הצטרפות</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <h2 class="section-title">הצטרף לקהילת מורי הנהיגה שלנו</h2>
+    <p style="text-align:center; max-width:800px; margin:auto; color:#cbd5e1;">מלא את הפרטים הבאים כדי לפתוח חשבון ולהתחבר לרשת המורים שלנו. ההצטרפות היא בחינם ומאפשרת לפרסם מודעות ולקבל הצעות מלקוחות.</p>
+    <form id="signupForm">
+      <label for="name">שם מלא</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">דוא"ל</label>
+      <input type="email" id="email" name="email" required>
+      <label for="phone">טלפון</label>
+      <input type="text" id="phone" name="phone" required>
+      <label for="password">סיסמה</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">צור חשבון</button>
+    </form>
+  </section>
+  <footer>
+    © 2025 Alpha Drive. כל הזכויות שמורות.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

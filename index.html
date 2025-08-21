@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alpha Drive Marketplace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo transpernt.png" alt="Alpha Drive Logo">
+    </div>
+    <!-- Mobile menu toggle button -->
+    <button class="menu-toggle" aria-label="תפריט">☰</button>
+    <nav>
+      <ul>
+        <li class="active"><a href="index.html">בית</a></li>
+        <li><a href="buy.html">קנייה</a></li>
+        <li><a href="sell.html">מכירה</a></li>
+        <li><a href="valuation.html">בדיקת מחירון</a></li>
+        <li><a href="signup.html">הצטרפות</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>ברוכים הבאים ל‑AlphaDrive Marketplace</h1>
+      <p>הפלטפורמה המקצועית הראשונה בישראל לקנייה ומכירת רכבי לימוד, ציוד למורי נהיגה, ביטוחים ועוד – הכל בין מורים ובתנאים שקופים וללא עמלות בשלב ההשקה.</p>
+      <div class="cta-buttons">
+        <a href="buy.html" class="primary-btn">צפה במוצרים</a>
+        <a href="sell.html" class="secondary-btn">פתח מודעה</a>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2 class="section-title">מצא את הרכב הבא שלך</h2>
+    <div class="search-bar">
+      <input type="text" id="homeSearch" placeholder="חפש לפי דגם, יצרן או מילה מפתח">
+      <button onclick="window.location.href='buy.html'">חיפוש</button>
+    </div>
+  </section>
+  <!-- Promo section showing three primary marketplace categories -->
+  <section class="promo-section">
+    <h2 class="section-title">קטגוריות מובילות</h2>
+    <div class="promo-grid">
+      <!-- Deals promo card: use inline img for consistent background -->
+      <a href="deals.html" class="promo-card">
+        <img src="gift.png" alt="מבצעים" />
+        <div class="overlay"><h3>מבצעים</h3></div>
+      </a>
+      <!-- Insurance promo card -->
+      <a href="insurance.html" class="promo-card">
+        <img src="insurance3d.png" alt="ביטוחים" />
+        <div class="overlay"><h3>ביטוחים</h3></div>
+      </a>
+      <!-- Accessories promo card -->
+      <a href="equipment.html" class="promo-card">
+        <img src="camera3d.png" alt="ציוד ואיבזור" />
+        <div class="overlay"><h3>ציוד ואיבזור</h3></div>
+      </a>
+    </div>
+  </section>
+  <section>
+    <h2 class="section-title">ללא עמלה</h2>
+    <p style="text-align:center; max-width:800px; margin:auto; color:#cbd5e1;">פרסום מודעות ומכירת רכבים, אביזרים וביטוחים בחינם – ללא עמלת מכירה או תשלומים נסתרים. ננהל עסקאות בצורה שקופה ובטוחה.</p>
+  </section>
+  <section>
+    <h2 class="section-title">הצטרף לקהילת מורי הנהיגה שלנו</h2>
+    <p style="text-align:center; max-width:800px; margin:auto; color:#cbd5e1;">שמור על צי הרכבים שלך מעודכן, התחבר עם קולגות וקבל הצעות ערך מוסף לאורך הדרך.</p>
+    <div class="cta-buttons" style="justify-content:center; margin-top:1rem;">
+      <!-- Use secondary button styling for join action -->
+      <a href="signup.html" class="secondary-btn">הצטרף עכשיו</a>
+    </div>
+  </section>
+  <footer>
+    © 2025 Alpha Drive. כל הזכויות שמורות.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

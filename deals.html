@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>מבצעים - Alpha Drive Marketplace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo transpernt.png" alt="Alpha Drive Logo">
+    </div>
+    <!-- Mobile menu toggle button -->
+    <button class="menu-toggle" aria-label="תפריט">☰</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">בית</a></li>
+        <li><a href="buy.html">קנייה</a></li>
+        <li><a href="sell.html">מכירה</a></li>
+        <li><a href="valuation.html">בדיקת מחירון</a></li>
+        <li><a href="signup.html">הצטרפות</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Category header with icon and title -->
+  <section class="category-header" style="text-align:center; padding-top:2rem;">
+    <img src="gift.png" alt="מבצעים" style="width:120px; height:120px; object-fit:contain; margin-bottom:1rem;">
+    <h2 class="section-title">מבצעים</h2>
+  </section>
+  <section>
+    <p style="text-align:center; max-width:800px; margin:auto; color:#cbd5e1;">כאן תמצאו את כל המבצעים וההטבות לקהילת מורי הנהיגה. לפרסום מבצע חדש יש לפנות למנהל הפלטפורמה.</p>
+    <div id="listingGrid" class="listing-grid"></div>
+  </section>
+  <footer>
+    © 2025 Alpha Drive. כל הזכויות שמורות.
+  </footer>
+  <!-- Modal container for listing details -->
+  <div id="modalOverlay" class="modal-overlay"></div>
+  <script src="script.js"></script>
+</body>
+</html>
